@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="hbreaktest.CircuitNameOverlay"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    d:DesignHeight="800" d:DesignWidth="480">
+    
+    <Grid x:Name="LayoutRoot" Background="{StaticResource PhoneChromeBrush}">
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="NAME" x:Name="timeOverlayTitle" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
+        </StackPanel>
+        <Grid x:Name="curcuitOverlayGrid" >
+            <StackPanel Margin="12,120,12,0" >
+            <TextBlock Text="please name your circuit" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox x:Name="circuitNameBox" Text="New Circuit" GotFocus="ClearText" TextAlignment="Center" InputScope="PersonalFullName" LostFocus="CheckName"/>
+                <TextBlock x:Name="nameUseText" TextAlignment="Center" TextWrapping="Wrap" Margin="0,12"/>
+                <RadioButton x:Name="scheduleRadio" Content="Scheduled" GroupName="Choices" IsChecked="True"/>
+                <RadioButton x:Name="demandRadio" Content="On Demand" GroupName="Choices"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

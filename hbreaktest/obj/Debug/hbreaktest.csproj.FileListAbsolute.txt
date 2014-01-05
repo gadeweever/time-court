@@ -1,0 +1,231 @@
+c:\users\gamal\documents\visual studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\Assets\ApplicationIcon.png
+c:\users\gamal\documents\visual studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+c:\users\gamal\documents\visual studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+c:\users\gamal\documents\visual studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+c:\users\gamal\documents\visual studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+c:\users\gamal\documents\visual studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+c:\users\gamal\documents\visual studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\hbreaktest.dll
+c:\users\gamal\documents\visual studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\hbreaktest.pdb
+c:\users\gamal\documents\visual studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\AppManifest.xaml
+c:\users\gamal\documents\visual studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\hbreaktest_Debug_AnyCPU.xap
+c:\users\gamal\documents\visual studio 2012\Projects\hbreaktest\hbreaktest\obj\Debug\App.g.cs
+c:\users\gamal\documents\visual studio 2012\Projects\hbreaktest\hbreaktest\obj\Debug\MainPage.g.cs
+c:\users\gamal\documents\visual studio 2012\Projects\hbreaktest\hbreaktest\obj\Debug\hbreaktest.g.resources
+c:\users\gamal\documents\visual studio 2012\Projects\hbreaktest\hbreaktest\obj\Debug\hbreaktest.Resources.AppResources.resources
+c:\users\gamal\documents\visual studio 2012\Projects\hbreaktest\hbreaktest\obj\Debug\hbreaktest.csproj.GenerateResource.Cache
+c:\users\gamal\documents\visual studio 2012\Projects\hbreaktest\hbreaktest\obj\Debug\hbreaktest.dll
+c:\users\gamal\documents\visual studio 2012\Projects\hbreaktest\hbreaktest\obj\Debug\hbreaktest.pdb
+c:\users\gamal\documents\visual studio 2012\Projects\hbreaktest\hbreaktest\obj\Debug\XapCacheFile.xml
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\obj\Debug\hbreaktest.csprojResolveAssemblyReference.cache
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\obj\Debug\TimeOverlay.g.cs
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\obj\Debug\CircuitBuilder.g.cs
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\obj\Debug\BuildTask.g.cs
+C:\Users\Gamal\Documents\Visual Studio 2012\Projects\hbreaktest\hbreaktest\obj\Debug\CircuitNameOverlay.g.cs
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\hbreaktest.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\hbreaktest.pdb
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\AppManifest.xaml
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\hbreaktest_Debug_AnyCPU.xap
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\obj\Debug\App.g.cs
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\obj\Debug\BuildTask.g.cs
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\obj\Debug\CircuitBuilder.g.cs
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\obj\Debug\CircuitNameOverlay.g.cs
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\obj\Debug\CircuitPlayer.g.cs
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\obj\Debug\DateTimeOverlay.g.cs
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\obj\Debug\MainPage.g.cs
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\obj\Debug\TimeOverlay.g.cs
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\obj\Debug\hbreaktest.g.resources
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\obj\Debug\hbreaktest.Resources.AppResources.resources
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\obj\Debug\hbreaktest.csproj.GenerateResource.Cache
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\obj\Debug\hbreaktest.dll
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\obj\Debug\hbreaktest.pdb
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\obj\Debug\XapCacheFile.xml
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\obj\Debug\hbreaktest.csprojResolveAssemblyReference.cache
+C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\obj\Debug\Page1.g.cs
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\hbreaktest.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\hbreaktest.pdb
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\AppManifest.xaml
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\hbreaktest_Debug_AnyCPU.xap
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\obj\Debug\hbreaktest.csprojResolveAssemblyReference.cache
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\obj\Debug\App.g.cs
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\obj\Debug\BuildTask.g.cs
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\obj\Debug\CircuitBuilder.g.cs
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\obj\Debug\CircuitNameOverlay.g.cs
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\obj\Debug\CircuitPlayer.g.cs
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\obj\Debug\DateTimeOverlay.g.cs
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\obj\Debug\MainPage.g.cs
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\obj\Debug\Page1.g.cs
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\obj\Debug\TimeOverlay.g.cs
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\obj\Debug\hbreaktest.g.resources
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\obj\Debug\hbreaktest.Resources.AppResources.resources
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\obj\Debug\hbreaktest.csproj.GenerateResource.Cache
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\obj\Debug\hbreaktest.dll
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\obj\Debug\hbreaktest.pdb
+C:\Users\Gamal\Documents\GitHub\hbreaktest\hbreaktest\obj\Debug\XapCacheFile.xml
