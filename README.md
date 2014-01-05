@@ -1,4 +1,8 @@
 time-court
 ==========
+Allows for dynamic scheduling of reminder lists as "circuits" rather than individual alarms. Unreleased due to Alarm restriction per app (darn you microsoft)
 
-Code for the time court app
+
+Referenced Usage
+
+Reminders, Alarms, and overlay controls
