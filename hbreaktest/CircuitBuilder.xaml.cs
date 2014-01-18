@@ -66,7 +66,6 @@ namespace hbreaktest
             //System.Diagnostics.Debug.WriteLine(GlobalItems.CurrentCircuit.name + " " + GlobalItems.CurrentCircuit.days.Count);
             if (j == GlobalItems.CurrentCircuit.days.Count)
                 circuitDayBox.Content = "once";
-
             CheckTimeForUI();
             
         }
@@ -129,11 +128,7 @@ namespace hbreaktest
             GlobalItems.RemoveCircuitFromSchedule();
             if (!GlobalItems.CurrentCircuit.isScheduled)
             {
-                //app bar handling
-                appMenuPlay.IconUri = new Uri("/Toolkit.Content/stopButton-01.png", UriKind.Relative);
-                appMenuPlay.Text = "stop";
-                appMenuAdd.IsEnabled = false;
-                appMenuSave.IsEnabled = false;
+                DisableUI();
                 DateTime first = DateTime.Now;
 
                 foreach (AssignmentTask task in GlobalItems.CurrentCircuit.tasks)
@@ -149,25 +144,31 @@ namespace hbreaktest
                     wow.ExpirationTime = first;
                     wow.NavigationUri = new Uri("/CircuitBuilder.xaml?index=" + GlobalItems.CurrentCircuitIndex, UriKind.Relative);
                     ScheduledActionService.Add(wow);
+                    GlobalItems.CurrentCircuit.times.Add(first);
                     
                 }
                 currentTaskName.Text = GlobalItems.CurrentCircuit.tasks[0].name;
-                LayoutRoot.IsHitTestVisible = false;
-                LayoutRoot.Opacity = 0.7;
                 GlobalItems.CurrentCircuit.isScheduled = true;
             }
             else
             {
-                appMenuPlay.IconUri = new Uri("/Toolkit.Content/nextbutton-01.png", UriKind.Relative);
-                appMenuPlay.Text = "play";
-                appMenuAdd.IsEnabled = true;
-                appMenuSave.IsEnabled = true;
-                LayoutRoot.IsHitTestVisible = true;
-                LayoutRoot.Opacity = 1;
+                EnableUI();
                 GlobalItems.CurrentCircuit.isScheduled = false;
                 GlobalItems.RemoveCircuitFromSchedule();
             }
             
+        }
+
+        private void CheckScheduleDone()
+        {
+            if (GlobalItems.CurrentCircuit.isScheduled)
+            {
+                DateTime now = DateTime.Now;
+                if (now.CompareTo(GlobalItems.CurrentCircuit.times[GlobalItems.CurrentCircuit.times.Count - 1]) < 0)
+                   GlobalItems.CurrentCircuit.isScheduled = true;
+                else
+                    GlobalItems.CurrentCircuit.isScheduled =  false;
+            }
         }
 
        
@@ -183,20 +184,8 @@ namespace hbreaktest
             this.LayoutRoot.Opacity = 0;
             this.popup.Child = ovr;
             this.popup.IsOpen = true;
-            //this.ApplicationBar.IsVisible = true;
-            //this.ApplicationBar.IsMenuEnabled = true;
-            //appMenuCancel.IsEnabled = true;
-            //appMenuAdd.IsEnabled = false;
             SystemTray.IsVisible = false; //to hide system tray
             isPicking = !isPicking;
-            //dynamically create a list of LongListMultiSelectorItem
-             //foreach (DayofWeek day in GlobalItems.CurrentCircuit.days)
-             //{
-             //   ovr.circuitDayPicker.ItemsSource.RemoveAt(day.daynum);
-             //   ovr.circuitDayPicker.ItemsSource.Insert(day.daynum, day);
-             //   System.Diagnostics.Debug.WriteLine(ovr.circuitDayPicker.ItemsSource.Contains(day) + " " + ovr.circuitDayPicker.ItemsSource.Count);
-             //   (ovr.circuitDayPicker.ContainerFromItem(day) as LongListMultiSelectorItem).IsSelected = true;
-             //}
 
             
         }
@@ -276,28 +265,55 @@ namespace hbreaktest
             GlobalItems.AddCircuitToSchedule((DateTime)circuitTimePicker.Value);
         }
 
+        #region UI Control
         private void CheckTimeForUI()
         {
+            CheckScheduleDone();
             if (GlobalItems.CurrentCircuit.isScheduled)
             {
                 //handle visibility
-                LayoutRoot.IsHitTestVisible = false;
-                LayoutRoot.Opacity = 0.7;
+                DisableUI();
 
                 int length = GlobalItems.CurrentCircuit.tasks.Count;
                 DateTime now = DateTime.Now;
+                currentTaskName.Text = GlobalItems.CurrentCircuit.tasks[0].name;
                 for (int i = 0; i < length; i++)
                 {
-                    if (GlobalItems.CurrentCircuit.times[i].CompareTo(now) < 0)
-                    {
-                        currentTaskName.Text = GlobalItems.CurrentCircuit.tasks[i - 1].name;
+                    if (GlobalItems.CurrentCircuit.times[i].CompareTo(now) > 0)
                         return;
-                    }
+                    currentTaskName.Text = GlobalItems.CurrentCircuit.tasks[i].name;
                 }
             }
             else
+            {
+                EnableUI();
                 currentTaskName.Text = "none";
+            }
         }
+
+        private void DisableUI()
+        {
+            appMenuPlay.IconUri = new Uri("/Toolkit.Content/stopButton-01.png", UriKind.Relative);
+            appMenuPlay.Text = "stop";
+            appMenuAdd.IsEnabled = false;
+            appMenuSave.IsEnabled = false;
+            LayoutRoot.IsHitTestVisible = false;
+            LayoutRoot.Opacity = 0.7;
+        }
+
+        private void EnableUI()
+        {
+            appMenuPlay.IconUri = new Uri("/Toolkit.Content/nextbutton-01.png", UriKind.Relative);
+            appMenuPlay.Text = "play";
+            appMenuAdd.IsEnabled = true;
+            appMenuSave.IsEnabled = true;
+            LayoutRoot.IsHitTestVisible = true;
+            LayoutRoot.Opacity = 1;
+        }
+
+        #endregion
+
+
 
     }
 }
