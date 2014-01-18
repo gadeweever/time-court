@@ -64,9 +64,30 @@ namespace hbreaktest
             //System.Diagnostics.Debug.WriteLine(GlobalItems.CurrentCircuit.name + " " + GlobalItems.CurrentCircuit.days.Count);
             if (j == GlobalItems.CurrentCircuit.days.Count)
                 circuitDayBox.Content = "once";
+
+            CheckTimeForUI();
             
 
             
+        }
+
+        private void CheckTimeForUI()
+        {
+            if (GlobalItems.CurrentCircuit.isScheduled)
+            {
+                int length = GlobalItems.CurrentCircuit.tasks.Count;
+                DateTime now = DateTime.Now;
+                for (int i = 0; i < length; i++)
+                {
+                    if (GlobalItems.CurrentCircuit.times[i].CompareTo(now) < 0)
+                    {
+                        currentTaskName.Text = GlobalItems.CurrentCircuit.tasks[i - 1].name;
+                        return;
+                    }
+                }
+            }
+            else
+                currentTaskName.Text = "none";
         }
         protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)
         {
@@ -139,14 +160,17 @@ namespace hbreaktest
                 }
                 LayoutRoot.IsHitTestVisible = false;
                 LayoutRoot.Opacity = 0.7;
+                GlobalItems.CurrentCircuit.isScheduled = true;
             }
             else
             {
-                appMenuPlay.IconUri = new Uri("/Toolkit.Content/nextbuttton-01.png", UriKind.Relative);
+                appMenuPlay.IconUri = new Uri("/Toolkit.Content/nextbutton-01.png", UriKind.Relative);
                 isPlaying = false;
                 appMenuAdd.IsEnabled = true;
                 LayoutRoot.IsHitTestVisible = true;
                 LayoutRoot.Opacity = 0.7;
+                GlobalItems.CurrentCircuit.isScheduled = false;
+                GlobalItems.RemoveCircuitFromSchedule();
             }
         }
 
@@ -235,7 +259,7 @@ namespace hbreaktest
            circuitDayBox.Content = text;
 
            GlobalItems.CurrentCircuit.setDays(days);
-           GlobalItems.CurrentCircuit.scheduled = text;
+           //GlobalItems.CurrentCircuit.scheduled = text;
            GlobalItems.SaveStorageData(); 
         }
         #endregion
@@ -245,6 +269,7 @@ namespace hbreaktest
             if (taskIndex < 0)
                 return;
             GlobalItems.CurrentCircuit.tasks.RemoveAt(taskIndex);
+            GlobalItems.CurrentCircuit.setFirstTask();
             taskList.ItemsSource = null;
             taskList.ItemsSource = GlobalItems.CurrentCircuit.tasks;
             GlobalItems.SaveStorageData();

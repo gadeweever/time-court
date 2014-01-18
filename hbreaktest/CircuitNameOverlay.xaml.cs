@@ -18,10 +18,7 @@ namespace hbreaktest
             this.LayoutRoot.Height = Application.Current.Host.Content.ActualHeight;
             this.LayoutRoot.Width = Application.Current.Host.Content.ActualWidth;
 
-            nameUseText.Text = "A Scheduled Task begins at a certain time." +
-                " An On Demand task is started by using the play button." +
-                " If you want to wake up at 7:00AM, use a Scheduled Task." +
-                " If you just put the laundry in, use an On Demand!";
+            nameUseText.Text = "this is the name of the task list used to identify your task!";
         }
 
         private void ClearText(object sender, RoutedEventArgs e)

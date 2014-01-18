@@ -67,11 +67,15 @@
                             </toolkit:ContextMenuService.ContextMenu>
                             <Grid>
                                 <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top">
-                                <TextBlock Text="{Binding name}" FontSize="36" 
+                                <TextBlock Text="{Binding name}" FontSize="36" Margin="12,0,0,0"
                                    Hold="GetSelectedIndexByName"/>
-                                <TextBlock Text="{Binding scheduled}" Foreground="{StaticResource PhoneTextLowContrastBrush}" />
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="First Task: " Style="{StaticResource PhoneTextSubtleStyle}" />
+                                <TextBlock Text="{Binding firstTask}" Foreground="{StaticResource PhoneAccentBrush}" />
+                                    </StackPanel>
                                 </StackPanel>
-                                <toolkit:ToggleSwitch IsChecked="{Binding isCircuitScheduled}" Content="" Checked="SetCircuitScheduled" Unchecked="UnsetCircuitScheduled" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+                               <!-- <toolkit:ToggleSwitch IsChecked="{Binding isCircuitScheduled}" Content="" Checked="SetCircuitScheduled" Unchecked="UnsetCircuitScheduled" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+                                -->
                             </Grid>
                         </StackPanel>
                     </DataTemplate>

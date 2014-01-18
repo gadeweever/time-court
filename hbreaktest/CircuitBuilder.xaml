@@ -40,6 +40,10 @@
                          GotFocus="EnterDayPick" Background="{StaticResource PhoneBackgroundBrush}" BorderBrush="{StaticResource PhoneContrastBackgroundBrush}" Foreground="{StaticResource PhoneContrastBackgroundBrush}"
                              />
                 </StackPanel>
+                <StackPanel x:Name="CurrentTaskPanel" Orientation="Horizontal" >
+                    <TextBlock Text="Current Task: " Style="{StaticResource PhoneTextTitle2Style}"/>
+                    <TextBlock x:Name="currentTaskName" Style="{StaticResource PhoneTextTitle2Style}" Foreground="{StaticResource PhoneAccentBrush}" />
+                </StackPanel>
                 <ListBox x:Name="taskList" SelectionChanged="NavigateByTaskItem">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
@@ -72,8 +76,8 @@
             <shell:ApplicationBarIconButton IconUri="/Toolkit.Content/Applicationbar.Add.png" 
                                             Text="new"  
                                             Click="AddTaskNavigate"/>
-            <shell:ApplicationBarIconButton IconUri="/Toolkit.Content/Applicationbar.Check.png" 
-                                            Text="done" 
+            <shell:ApplicationBarIconButton IconUri="/Toolkit.Content/save.png" 
+                                            Text="save" 
                                             Click="CompleteCircuit"/>
             <shell:ApplicationBarIconButton IconUri="/Toolkit.Content/nextbutton-01.png" 
                                             Text="play" 

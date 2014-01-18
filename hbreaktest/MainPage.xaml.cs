@@ -22,6 +22,7 @@ namespace hbreaktest
         CircuitNameOverlay ovr;
         public bool isPicking;
         private int circuitIndex;
+        ApplicationBarIconButton add;
 
         // Constructor
         public MainPage()
@@ -30,7 +31,9 @@ namespace hbreaktest
             ovr = new CircuitNameOverlay();
             this.popup = new Popup();
             isPicking = false;
+            add = this.ApplicationBar.Buttons[0] as ApplicationBarIconButton;
             GlobalItems.AppCircuits = new List<Assignment>();
+            
             LoadStoredData();
             //set to -2 because default selectedIndex is -1, and 0 is non-informative
             circuitIndex = -2;
@@ -50,6 +53,7 @@ namespace hbreaktest
                 this.popup.Opacity = .8;
                 this.popup.IsOpen = true;
                 SystemTray.IsVisible = false; //to hide system tray
+                add.IconUri = new Uri("/Toolkit.Content/save.png", UriKind.Relative);
             }
 
             else
@@ -64,11 +68,8 @@ namespace hbreaktest
                 GlobalItems.CurrentCircuitIndex = GlobalItems.AppCircuits.Count - 1;
                 GlobalItems.CurrentCircuit = GlobalItems.AppCircuits[GlobalItems.CurrentCircuitIndex];
 
-                //get info from radios
-                if ((bool)ovr.scheduleRadio.IsChecked)
-                    GlobalItems.CurrentCircuit.isCircuitScheduled = true;
-                else
-                    GlobalItems.CurrentCircuit.isCircuitScheduled = false;
+                //get info from radio    
+                GlobalItems.CurrentCircuit.isCircuitScheduled = false;
 
                 //reset menu list to the stored assignments   
                 base.Focus();
@@ -77,6 +78,7 @@ namespace hbreaktest
 
                 GlobalItems.SaveStorageData();
                 Return();
+                add.IconUri = new Uri("/Toolkit.Content/ApplicationBar.Add.png", UriKind.Relative);
                 NavigationService.Navigate(new Uri("/CircuitBuilder.xaml", UriKind.Relative));
                 
             
@@ -159,9 +161,9 @@ namespace hbreaktest
          {
              if (circuitIndex < 0)
                  return;
-             GlobalItems.AppCircuits.RemoveAt(circuitIndex);
-             GlobalItems.CurrentCircuit = GlobalItems.AppCircuits[circuitIndex];
              GlobalItems.RemoveCircuitFromSchedule();
+             GlobalItems.AppCircuits.RemoveAt(circuitIndex);
+             GlobalItems.CurrentCircuit = null;
              circuitList.ItemsSource = null;
              circuitList.ItemsSource = GlobalItems.AppCircuits;
              GlobalItems.SaveStorageData();

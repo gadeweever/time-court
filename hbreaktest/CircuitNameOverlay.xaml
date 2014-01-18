@@ -18,9 +18,10 @@
             <TextBlock Text="please name your circuit" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 <TextBox x:Name="circuitNameBox" Text="New Circuit" GotFocus="ClearText" TextAlignment="Center" InputScope="PersonalFullName" LostFocus="CheckName"/>
                 <TextBlock x:Name="nameUseText" TextAlignment="Center" TextWrapping="Wrap" Margin="0,12"/>
-                <RadioButton x:Name="scheduleRadio" Content="Scheduled" GroupName="Choices" IsChecked="True"/>
+                <!--<RadioButton x:Name="scheduleRadio" Content="Scheduled" GroupName="Choices" IsChecked="True"/>
                 <RadioButton x:Name="demandRadio" Content="On Demand" GroupName="Choices"/>
-            </StackPanel>
+            -->
+                </StackPanel>
         </Grid>
     </Grid>
 </UserControl>

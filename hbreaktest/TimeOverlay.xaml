@@ -28,7 +28,7 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <controls:LoopingSelector x:Name="hoursSelector" Margin="12" Width="128" ItemSize="138,128" ItemMargin="0,5" ItemTemplate="{StaticResource NumberTemplate}"
+            <controls:LoopingSelector x:Name="hoursSelector" Margin="12" Width="138"   ItemSize="138,138" ItemMargin="0,5" ItemTemplate="{StaticResource NumberTemplate}"
                                       ManipulationStarted="ClearTextHours"
                                       ManipulationCompleted="ShowTextHours"
                                       >
@@ -36,7 +36,7 @@
                     <local:NumbersDataSource Minimum="0" Maximum="23" />
                 </controls:LoopingSelector.DataSource>
             </controls:LoopingSelector>
-            <controls:LoopingSelector x:Name="minutesSelector" Grid.Column="1" Margin="12" Width="128" ItemMargin="0,5" ItemSize="138,128" ItemTemplate="{StaticResource NumberTemplate}"
+            <controls:LoopingSelector x:Name="minutesSelector" Grid.Column="1" Margin="12"  Width="138" ItemMargin="0,5" ItemSize="138,138" ItemTemplate="{StaticResource NumberTemplate}"
                                       ManipulationStarted="ClearTextMinutes"
                                       ManipulationCompleted="ShowTextMinutes">
                 <controls:LoopingSelector.DataSource>
@@ -44,7 +44,7 @@
 
                 </controls:LoopingSelector.DataSource>
             </controls:LoopingSelector>
-            <controls:LoopingSelector x:Name="secondsSelector" Grid.Column="2" Margin="12" Width="128" ItemMargin="0,5" ItemSize="138,128" ItemTemplate="{StaticResource NumberTemplate}" Canvas.ZIndex="1"
+            <controls:LoopingSelector x:Name="secondsSelector" Grid.Column="2" Margin="12" Width="138" ItemMargin="0,5" ItemSize="138,138" ItemTemplate="{StaticResource NumberTemplate}" Canvas.ZIndex="1"
                                       ManipulationStarted="ClearTextSeconds"
                                       ManipulationCompleted="ShowTextSeconds"
                                       >

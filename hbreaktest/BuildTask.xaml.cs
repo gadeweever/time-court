@@ -118,6 +118,8 @@ namespace hbreaktest
                     Convert.ToInt32(ovr.secondsSelector.DataSource.SelectedItem.ToString()),
                     GetSelectorText()));
             }
+
+            GlobalItems.CurrentCircuit.setFirstTask();
             GlobalItems.SaveStorageData();
             NavigationService.GoBack();
         }

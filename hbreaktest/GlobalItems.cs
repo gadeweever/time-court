@@ -168,6 +168,7 @@ namespace hbreaktest
                 first = first.AddMinutes(task.minutes);
                 first = first.AddSeconds(task.seconds);
 
+                // wow, such reminder
                 Reminder wow = new Reminder(task.name);
                 wow.RecurrenceType = RecurrenceInterval.None;
                 wow.Content = "Next Task: " + task.name;
@@ -175,6 +176,7 @@ namespace hbreaktest
                 wow.ExpirationTime = first;
                 wow.NavigationUri = new Uri("/CircuitBuilder.xaml?index=" + GlobalItems.CurrentCircuitIndex, UriKind.Relative);
                 ScheduledActionService.Add(wow);
+                _assignmentVal.times.Add(first);
             }
         }
 
@@ -191,6 +193,8 @@ namespace hbreaktest
                     continue;
                 }
             }
+
+            _assignmentVal.times.Clear();
         }
     }
 }

@@ -12,7 +12,9 @@ namespace hbreaktest
         public List<AssignmentTask> tasks { get; set; }
         public bool isCircuitScheduled { get; set; }
         public List<DayofWeek> days { get; set; }
-        public String scheduled { get; set; }
+        public String firstTask { get; set; }
+        public bool isScheduled { get; set; }
+        public List<DateTime> times { get; set; }
 
 
         public Assignment()
@@ -21,7 +23,9 @@ namespace hbreaktest
             tasks = new List<AssignmentTask>();
             isCircuitScheduled = false;
             days = new List<DayofWeek>();
-            scheduled = "";
+            firstTask = "";
+            isScheduled = false;
+            times = new List<DateTime>();
         }
 
         public Assignment(String a)
@@ -30,7 +34,9 @@ namespace hbreaktest
              tasks = new List<AssignmentTask>();
              isCircuitScheduled = false;
              days = new List<DayofWeek>();
-             scheduled = "";
+             firstTask = "";
+             isScheduled = false;
+             times = new List<DateTime>();
         }
 
         public String getName()
@@ -51,6 +57,14 @@ namespace hbreaktest
         public void setDays(List<DayofWeek> a)
         {
             this.days = a;
+        }
+
+        public void setFirstTask()
+        {
+            if (tasks.Count > 0)
+                this.firstTask = tasks[0].name;
+            else
+                this.firstTask = "";
         }
 
 
