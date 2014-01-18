@@ -182,15 +182,18 @@ namespace hbreaktest
 
         public static void RemoveCircuitFromSchedule()
         {
-            foreach (AssignmentTask task in _assignmentVal.tasks)
+            if (_assignmentVal.tasks.Count > 0)
             {
-                try
+                foreach (AssignmentTask task in _assignmentVal.tasks)
                 {
-                    ScheduledActionService.Remove(task.name);
-                }
-                catch (InvalidOperationException)
-                {
-                    continue;
+                    try
+                    {
+                        ScheduledActionService.Remove(task.name);
+                    }
+                    catch (InvalidOperationException)
+                    {
+                        continue;
+                    }
                 }
             }
 

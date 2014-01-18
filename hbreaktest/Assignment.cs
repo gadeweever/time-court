@@ -10,7 +10,6 @@ namespace hbreaktest
     {
         public String name {get; set;}
         public List<AssignmentTask> tasks { get; set; }
-        public bool isCircuitScheduled { get; set; }
         public List<DayofWeek> days { get; set; }
         public String firstTask { get; set; }
         public bool isScheduled { get; set; }
@@ -21,7 +20,6 @@ namespace hbreaktest
         {
             name = "";
             tasks = new List<AssignmentTask>();
-            isCircuitScheduled = false;
             days = new List<DayofWeek>();
             firstTask = "";
             isScheduled = false;
@@ -32,7 +30,6 @@ namespace hbreaktest
         {
              name = a;
              tasks = new List<AssignmentTask>();
-             isCircuitScheduled = false;
              days = new List<DayofWeek>();
              firstTask = "";
              isScheduled = false;

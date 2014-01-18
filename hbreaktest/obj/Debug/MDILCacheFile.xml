@@ -1,21 +1,22 @@
-﻿<xapCache source="C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\hbreaktest_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="1/1/2014 12:02:28 PM">
-  <file source="C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\obj\Debug\hbreaktest.dll" archivePath="hbreaktest.dll" lastWriteTime="1/1/2014 12:02:26 PM" />
-  <file source="C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="11/9/2013 8:15:44 PM" />
-  <file source="C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="11/9/2013 8:15:44 PM" />
-  <file source="C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="11/9/2013 8:15:44 PM" />
-  <file source="C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="11/9/2013 8:15:44 PM" />
-  <file source="C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="11/9/2013 8:15:44 PM" />
-  <file source="C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Toolkit.Content\nextbutton-01.png" archivePath="Toolkit.Content\nextbutton-01.png" lastWriteTime="12/24/2013 5:50:08 PM" />
-  <file source="C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\README_FIRST.txt" archivePath="README_FIRST.txt" lastWriteTime="12/17/2013 10:03:12 AM" />
-  <file source="C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Toolkit.Content\ApplicationBar.Add.png" archivePath="Toolkit.Content\ApplicationBar.Add.png" lastWriteTime="12/17/2013 10:03:12 AM" />
-  <file source="C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="12/17/2013 10:03:12 AM" />
-  <file source="C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="12/17/2013 10:03:12 AM" />
-  <file source="C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="12/17/2013 10:03:12 AM" />
-  <file source="C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="12/17/2013 10:03:12 AM" />
-  <file source="C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Toolkit.Content\stopbutton-01.png" archivePath="Toolkit.Content\stopbutton-01.png" lastWriteTime="12/27/2013 1:18:40 PM" />
-  <file source="C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="12/27/2013 1:25:56 PM" />
-  <file source="C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="11/9/2013 8:15:44 PM" />
-  <file source="C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="11/9/2013 8:15:44 PM" />
-  <file source="C:\Users\Winno\Documents\Projects\hbreaktest\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="12/17/2013 10:03:10 AM" />
-  <file source="C:\Users\Winno\Documents\Projects\hbreaktest\hbreaktest\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="12/27/2013 1:25:56 PM" />
+﻿<xapCache source="C:\Users\Gamal\Documents\GitHub\time-court\hbreaktest\Bin\Debug\hbreaktest_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="1/17/2014 10:01:28 PM">
+  <file source="C:\Users\Gamal\Documents\GitHub\time-court\hbreaktest\obj\Debug\hbreaktest.dll" archivePath="hbreaktest.dll" lastWriteTime="1/17/2014 10:01:27 PM" />
+  <file source="C:\Users\Gamal\Documents\GitHub\time-court\hbreaktest\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="11/9/2013 7:15:44 PM" />
+  <file source="C:\Users\Gamal\Documents\GitHub\time-court\hbreaktest\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="11/9/2013 7:15:44 PM" />
+  <file source="C:\Users\Gamal\Documents\GitHub\time-court\hbreaktest\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="11/9/2013 7:15:44 PM" />
+  <file source="C:\Users\Gamal\Documents\GitHub\time-court\hbreaktest\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="11/9/2013 7:15:44 PM" />
+  <file source="C:\Users\Gamal\Documents\GitHub\time-court\hbreaktest\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="11/9/2013 7:15:44 PM" />
+  <file source="C:\Users\Gamal\Documents\GitHub\time-court\hbreaktest\Toolkit.Content\nextbutton-01.png" archivePath="Toolkit.Content\nextbutton-01.png" lastWriteTime="12/24/2013 4:50:08 PM" />
+  <file source="C:\Users\Gamal\Documents\GitHub\time-court\hbreaktest\README_FIRST.txt" archivePath="README_FIRST.txt" lastWriteTime="12/17/2013 9:03:12 AM" />
+  <file source="C:\Users\Gamal\Documents\GitHub\time-court\hbreaktest\Toolkit.Content\ApplicationBar.Add.png" archivePath="Toolkit.Content\ApplicationBar.Add.png" lastWriteTime="12/17/2013 9:03:12 AM" />
+  <file source="C:\Users\Gamal\Documents\GitHub\time-court\hbreaktest\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="12/17/2013 9:03:12 AM" />
+  <file source="C:\Users\Gamal\Documents\GitHub\time-court\hbreaktest\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="12/17/2013 9:03:12 AM" />
+  <file source="C:\Users\Gamal\Documents\GitHub\time-court\hbreaktest\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="12/17/2013 9:03:12 AM" />
+  <file source="C:\Users\Gamal\Documents\GitHub\time-court\hbreaktest\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="12/17/2013 9:03:12 AM" />
+  <file source="C:\Users\Gamal\Documents\GitHub\time-court\hbreaktest\Toolkit.Content\save.png" archivePath="Toolkit.Content\save.png" lastWriteTime="1/16/2014 10:03:22 PM" />
+  <file source="C:\Users\Gamal\Documents\GitHub\time-court\hbreaktest\Toolkit.Content\stopbutton-01.png" archivePath="Toolkit.Content\stopbutton-01.png" lastWriteTime="12/27/2013 12:18:40 PM" />
+  <file source="C:\Users\Gamal\Documents\GitHub\time-court\hbreaktest\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="12/27/2013 12:25:56 PM" />
+  <file source="C:\Users\Gamal\Documents\GitHub\time-court\hbreaktest\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="11/9/2013 7:15:44 PM" />
+  <file source="C:\Users\Gamal\Documents\GitHub\time-court\hbreaktest\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="11/9/2013 7:15:44 PM" />
+  <file source="C:\Users\Gamal\Documents\GitHub\time-court\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="12/17/2013 9:03:10 AM" />
+  <file source="C:\Users\Gamal\Documents\GitHub\time-court\hbreaktest\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="12/27/2013 12:25:56 PM" />
 </xapCache>

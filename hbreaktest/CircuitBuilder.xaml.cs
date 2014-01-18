@@ -18,6 +18,7 @@ namespace hbreaktest
         
         ApplicationBarIconButton appMenuPlay;
         ApplicationBarIconButton appMenuAdd;
+        ApplicationBarIconButton appMenuSave;
         //control variable for application buttons
         private Popup popup;
         DateTimeOverlay ovr;
@@ -33,6 +34,7 @@ namespace hbreaktest
             
             appMenuPlay = (ApplicationBarIconButton)this.ApplicationBar.Buttons[2];
             appMenuAdd = (ApplicationBarIconButton)this.ApplicationBar.Buttons[0];
+            appMenuSave = (ApplicationBarIconButton)this.ApplicationBar.Buttons[1];
             circuit = new Assignment();
             ovr = new DateTimeOverlay();
             this.popup = new Popup();
@@ -48,16 +50,16 @@ namespace hbreaktest
             taskList.ItemsSource = null;
             taskList.ItemsSource = GlobalItems.CurrentCircuit.tasks;
 
-            //handle visiblility
-            if (GlobalItems.CurrentCircuit.isCircuitScheduled)
-            {
-                System.Diagnostics.Debug.WriteLine(ContentPanel.ActualHeight + " " + scheduledPanel.ActualHeight + " " + taskList.MaxHeight);
-                appMenuPlay.IsEnabled = false;
-                scheduledPanel.Visibility = System.Windows.Visibility.Visible;
-                taskList.Height = Application.Current.Host.Content.ActualHeight * 0.4275;
-            }
-            else
-                taskList.Height = Application.Current.Host.Content.ActualHeight * 0.6625;
+            ////handle visiblility
+            //if (GlobalItems.CurrentCircuit.isCircuitScheduled)
+            //{
+            //    System.Diagnostics.Debug.WriteLine(ContentPanel.ActualHeight + " " + scheduledPanel.ActualHeight + " " + taskList.MaxHeight);
+            //    appMenuPlay.IsEnabled = false;
+            //    scheduledPanel.Visibility = System.Windows.Visibility.Visible;
+            //    taskList.Height = Application.Current.Host.Content.ActualHeight * 0.4275;
+            //}
+            //else
+            //    taskList.Height = Application.Current.Host.Content.ActualHeight * 0.6625;
 
             
             int j = 0;
@@ -67,28 +69,9 @@ namespace hbreaktest
 
             CheckTimeForUI();
             
-
-            
         }
 
-        private void CheckTimeForUI()
-        {
-            if (GlobalItems.CurrentCircuit.isScheduled)
-            {
-                int length = GlobalItems.CurrentCircuit.tasks.Count;
-                DateTime now = DateTime.Now;
-                for (int i = 0; i < length; i++)
-                {
-                    if (GlobalItems.CurrentCircuit.times[i].CompareTo(now) < 0)
-                    {
-                        currentTaskName.Text = GlobalItems.CurrentCircuit.tasks[i - 1].name;
-                        return;
-                    }
-                }
-            }
-            else
-                currentTaskName.Text = "none";
-        }
+        
         protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)
         {
             if (isPicking)
@@ -96,16 +79,24 @@ namespace hbreaktest
                 e.Cancel = true;
                 Return();
             }
+            else
+            {
+                NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.Relative));
+                GlobalItems.SaveStorageData();
+            }
         }
         #endregion
 
         #region Task Navigation
         private void CompleteCircuit(object sender, EventArgs e)
         {
-            if(isPicking)
+            if (isPicking)
                 Return();
             else
+            {
                 NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.Relative));
+                GlobalItems.SaveStorageData();
+            }
         }
 
 
@@ -136,11 +127,13 @@ namespace hbreaktest
         private void PlayCircuit(object sender, EventArgs e)
         {
             GlobalItems.RemoveCircuitFromSchedule();
-            if (!isPlaying)
+            if (!GlobalItems.CurrentCircuit.isScheduled)
             {
                 //app bar handling
                 appMenuPlay.IconUri = new Uri("/Toolkit.Content/stopButton-01.png", UriKind.Relative);
+                appMenuPlay.Text = "stop";
                 appMenuAdd.IsEnabled = false;
+                appMenuSave.IsEnabled = false;
                 DateTime first = DateTime.Now;
 
                 foreach (AssignmentTask task in GlobalItems.CurrentCircuit.tasks)
@@ -156,8 +149,9 @@ namespace hbreaktest
                     wow.ExpirationTime = first;
                     wow.NavigationUri = new Uri("/CircuitBuilder.xaml?index=" + GlobalItems.CurrentCircuitIndex, UriKind.Relative);
                     ScheduledActionService.Add(wow);
-                    isPlaying = true;
+                    
                 }
+                currentTaskName.Text = GlobalItems.CurrentCircuit.tasks[0].name;
                 LayoutRoot.IsHitTestVisible = false;
                 LayoutRoot.Opacity = 0.7;
                 GlobalItems.CurrentCircuit.isScheduled = true;
@@ -165,13 +159,15 @@ namespace hbreaktest
             else
             {
                 appMenuPlay.IconUri = new Uri("/Toolkit.Content/nextbutton-01.png", UriKind.Relative);
-                isPlaying = false;
+                appMenuPlay.Text = "play";
                 appMenuAdd.IsEnabled = true;
+                appMenuSave.IsEnabled = true;
                 LayoutRoot.IsHitTestVisible = true;
-                LayoutRoot.Opacity = 0.7;
+                LayoutRoot.Opacity = 1;
                 GlobalItems.CurrentCircuit.isScheduled = false;
                 GlobalItems.RemoveCircuitFromSchedule();
             }
+            
         }
 
        
@@ -213,13 +209,6 @@ namespace hbreaktest
             SystemTray.IsVisible = true;
             isPicking = !isPicking;
             GetDayContent();
-            if (GlobalItems.CurrentCircuit.isCircuitScheduled)
-            {
-                appMenuPlay.IsEnabled = false;
-                scheduledPanel.Visibility = System.Windows.Visibility.Visible;
-            }
-
-            GlobalItems.AddCircuitToSchedule((DateTime)circuitTimePicker.Value);
         }
 
         //sets list of days to repeat the circuit, and the text of the box
@@ -285,6 +274,29 @@ namespace hbreaktest
         {
             GlobalItems.RemoveCircuitFromSchedule();
             GlobalItems.AddCircuitToSchedule((DateTime)circuitTimePicker.Value);
+        }
+
+        private void CheckTimeForUI()
+        {
+            if (GlobalItems.CurrentCircuit.isScheduled)
+            {
+                //handle visibility
+                LayoutRoot.IsHitTestVisible = false;
+                LayoutRoot.Opacity = 0.7;
+
+                int length = GlobalItems.CurrentCircuit.tasks.Count;
+                DateTime now = DateTime.Now;
+                for (int i = 0; i < length; i++)
+                {
+                    if (GlobalItems.CurrentCircuit.times[i].CompareTo(now) < 0)
+                    {
+                        currentTaskName.Text = GlobalItems.CurrentCircuit.tasks[i - 1].name;
+                        return;
+                    }
+                }
+            }
+            else
+                currentTaskName.Text = "none";
         }
 
     }

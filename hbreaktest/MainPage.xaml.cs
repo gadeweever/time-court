@@ -69,7 +69,7 @@ namespace hbreaktest
                 GlobalItems.CurrentCircuit = GlobalItems.AppCircuits[GlobalItems.CurrentCircuitIndex];
 
                 //get info from radio    
-                GlobalItems.CurrentCircuit.isCircuitScheduled = false;
+                GlobalItems.CurrentCircuit.isScheduled = false;
 
                 //reset menu list to the stored assignments   
                 base.Focus();
@@ -93,6 +93,8 @@ namespace hbreaktest
                 e.Cancel = true;
                 Return();
             }
+            else
+                Application.Current.Terminate();
         }
 
         //OnNavigatedTo sets the circuitList selection to -1 for visual purposes
@@ -201,10 +203,10 @@ namespace hbreaktest
 
              switch (check)
              {
-                 case 0: GlobalItems.CurrentCircuit.isCircuitScheduled = false;
+                 case 0: GlobalItems.CurrentCircuit.isScheduled = false;
                      GlobalItems.RemoveCircuitFromSchedule();
                      break;
-                 default: GlobalItems.CurrentCircuit.isCircuitScheduled = true;
+                 default: GlobalItems.CurrentCircuit.isScheduled = true;
                      break;
              }
 
